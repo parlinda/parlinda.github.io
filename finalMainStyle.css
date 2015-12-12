@@ -9,6 +9,16 @@ html,body {
 	background-color: #252525;
 }
 
+.PI{
+  visibility: visible;
+  padding-left: 200px;
+  padding-top: 125px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
 .callout-dark h1,
 h2,
 h3,
@@ -64,10 +74,7 @@ h4 {
   margin-right: 5%;
 }
 
-#div1 { background: #DDD; }
-#div2 { background: #AAA; text-align: center;}
-#div3 { background: #777; }
-#div4 { background: #444; }
+#div2 {text-align: center;}
 
 #div1,#div2,#div3,#div4{
   width: 50%;
@@ -75,10 +82,7 @@ h4 {
   float: left;
 }
 
-.PI{
-  padding-left: 200px;
-  padding-top: 125px;
-}
+
 
 .helper{
   display: inline-block;
@@ -137,4 +141,16 @@ h4 {
 
 .nav-tabs {
   padding-top: 10px;
+}
+
+@media screen and (max-width:700px){
+  .purple{
+    color: #000000;
+  }
+}
+
+@media screen and (max-width:480px){
+  body{
+    background-color: #DDD;
+  }
 }
